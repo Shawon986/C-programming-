@@ -2,9 +2,9 @@
 
 int main()
 {
-    printf("Hello world");
-     //print anything
-    printf(" 18658607019");
+    printf("Hello world \n");//print anything
+    printf("Taizhou University \n");
+    printf("18658607019");
     getch();
 }
 /*this is
