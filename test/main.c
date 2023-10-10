@@ -2,6 +2,12 @@
 
 int main()
 {
-    printf("Hello world")
-    return 0;
+    printf("Hello world");
+     //print anything
+    printf(" 18658607019");
+    getch();
 }
+/*this is
+multiple line
+comment
+*/
