@@ -20,11 +20,17 @@ int main()
     num4="a";
     num5=45.82398723325345 ;
 
+    // Format speccifier
     int num6=78;
     float num7=65.89;
     printf("Number is %f \n",num7);
     printf("charecter is %c \n",num4);
-    printf("Double nmbr is ",num5);
+    printf("Double nmbr is %lf \n",num5);
+
+    int num8 =56;
+    float num9= 45.54;
+
+    printf("Int and float numbers are %d,%f",num8,num9);
     getch();
 }
 /*this is
