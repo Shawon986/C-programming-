@@ -23,15 +23,19 @@ int main()
     // Format speccifier
     int num6=78;
     float num7=65.89;
-    printf("Number is .1%f \n",num7);
+    printf("Number is %f \n",num7);
     printf("character is %c \n",num4);
-    printf("Double nmbr is %lf \n",num5);
+    printf("Double nmbr is %.4lf \n",num5);
 
     int num8 =56;
     float num9= 45.54;
 
     printf("Int and float numbers are %d,%f",num8,num9);
-
+    
+    int num10;
+    printf("please enter an integer value :");
+    scanf(%d,&num10);
+    printf("You have pressed : %d",num10);
     getch();
 }
 /*this is

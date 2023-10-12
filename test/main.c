@@ -32,6 +32,10 @@ int main()
 
     printf("Int and float numbers are %d,%f",num8,num9);
 
+    int num10;
+    printf("please enter an integer value :");
+    scanf("%d",&num10);
+    printf("You have pressed : %d",num10);
     getch();
 }
 /*this is
