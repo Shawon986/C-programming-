@@ -31,12 +31,36 @@ int main()
     float num9= 45.54;
 
     printf("Int and float numbers are %d,%f",num8,num9);
-    
+
     int num10;
     printf("please enter an integer value :");
-    scanf(%d,&num10);
-    printf("You have pressed : %d",num10);
-    getch();
+    scanf("%d",&num10);
+    printf("You have pressed : %d \n",num10);
+
+    float num11;
+    printf("please enter a float number :");
+    scanf("%f",&num11);
+    printf("you have pressed :%.2f \n",num11);
+
+   /* char name;
+    printf("Please enter Character :");
+    scanf("%s",&name);
+    printf("You have pressed : %s \n",name);
+    */
+
+    double num55;
+    printf("please enter double number :");
+    scanf("%lf",&num55);
+    printf("You have pressed : %lf",num55);
+
+    char x;
+    printf("please enter character  :");
+    scanf("%s",&x);
+    printf("You have pressed : %s",x);
+
+    return 0;
+
+
 }
 /*this is
 multiple line

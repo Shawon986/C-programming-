@@ -35,8 +35,37 @@ int main()
     int num10;
     printf("please enter an integer value :");
     scanf("%d",&num10);
-    printf("You have pressed : %d",num10);
-    getch();
+    printf("You have pressed : %d \n",num10);
+
+    float num11;
+    printf("please enter a float number :");
+    scanf("%f",&num11);
+    printf("you have pressed :%.2f \n",num11);
+
+   /* char name;
+    printf("Please enter Character :");
+    scanf("%s",&name);
+    printf("You have pressed : %s \n",name);
+    */
+
+    float num50;
+    printf("please enter float number :");
+    scanf("%f",&num50);
+    printf("You have pressed : %f \n",num50);
+
+    double num55;
+    printf("please enter double number :");
+    scanf("%lf",&num55);
+    printf("You have pressed : %lf",num55);
+
+    char x;
+    printf("please enter character  :");
+    scanf("%s",&num55);
+    printf("You have pressed : %s",x);
+
+    return 0;
+
+
 }
 /*this is
 multiple line
